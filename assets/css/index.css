@@ -1,0 +1,29 @@
+.layui-footer {
+    text-align: center;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+}
+.iconfont {
+    margin-right: 8px;
+}
+.layui-body {
+    overflow: hidden;
+}
+.text-avatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: aquamarine;
+    color: #fff;
+    margin-right: 5px;
+}
+.layui-side-scroll .userinfo {
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
