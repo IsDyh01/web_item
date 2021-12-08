@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/lib/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/user/user_psw.css">
+</head>
+<body>
+    <form id="info_form">
+        <input type="hidden" id="id">
+        <div class="form-group">
+            <label for="exampleInputName2">原密码</label>
+            
+            <input type="text" class="form-control"  id="oldpsw" placeholder="请输入原密码">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputName2">新密码</label>
+            <input type="text" class="form-control"  placeholder="请输入新密码" id="newpsw">
+          </div>
+        <div class="form-group">
+            <label for="exampleInputEmail2">确认新密码</label>
+            <input type="text" class="form-control"  placeholder="请确认新密码" id="renewpsw">
+          </div>
+          <!-- <button id="btninfo">提交修改</button> -->
+          <input type="button" value="提交修改" id="btnpsw">
+          <!-- <input type="reset" id="reset"> -->
+
+          <!-- 导入jquery -->
+          <script src="../assets/lib/jquery.js"></script>
+          <!-- 导入baseAPI -->
+          <script src="../assets/js/baseAPI.js"></script>
+          <!-- 导入自己的js文件 -->
+          <script src="../assets/js/user/user_psw.js"></script>
+</body>
+</html>
