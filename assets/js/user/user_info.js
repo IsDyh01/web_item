@@ -67,6 +67,7 @@ $(function () {
                     return alert(res.message);
                 }
                 // alert(11);
+                // console.log(11);
                 //调用父业面的方法重新渲染用户名和头像
                 window.parent.getUserInfo();
                 // console.log("ok");
